@@ -109,12 +109,12 @@
 .notifications-icon-container .tooltip {
   font-family: Roboto, Arial;
   position: absolute;
-  background-color: gray;
+  background-color: rgba(96, 96, 96, 0.9);
   color: white;
   padding: 4px 8px;
   border-radius: 2px;
   font-size: 12px;
-  bottom: -30px;
+  bottom: -50px;
   opacity: 0;
 
   transition: opacity 0.15s;
@@ -127,7 +127,7 @@
 .upload-icon-container:hover .tooltip,
 .youtube-apps-icon-container:hover .tooltip,
 .notifications-icon-container:hover .tooltip {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .search-icon {
